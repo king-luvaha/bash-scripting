@@ -4,7 +4,7 @@
 # 2. Use a comma as the separator for that read command
 IFS=',' read -r name language os <<< "Ezra,Python,Fedora"
 
-# 3. Display each variable with a descriptive labe
+# 3. Display each variable with a descriptive label
 echo "Name: $name"
 echo "Programming language: $language"
 echo "Operating System: $os"
